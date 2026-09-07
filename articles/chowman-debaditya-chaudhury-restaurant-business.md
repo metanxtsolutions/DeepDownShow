@@ -35,7 +35,7 @@
     "Oudh 1590, started in 2013 with his brother, went to Lucknow for research and, by Debaditya's account, was the first in Kolkata to launch galouti kebab and biryani served in a handi; it now has 14 outlets in Kolkata plus Delhi.",
     "During the 2020 lockdown he persuaded the West Bengal government to treat restaurant delivery as an essential service within three days, paid salaries and bonuses on time, hired staff laid off elsewhere and opened at least 12 new restaurants.",
     "He puts repeat customers at 80 percent and says the first formula behind that is employee retention: in an industry where people leave for 500 rupees more, Chowman is run like a family.",
-    "His one admitted failure is Master Dimsum, a momo and dim sum QSR chain that did not work and was shut down; he calls it an experiment, not a failure.",
+    "His admitted failures are small ones: Master Dimsum, a momo and dim sum QSR chain that did not work and was shut down; he calls such things experiments and experience, not failures.",
     "Discipline runs the day: up at 5, in office by 8:30-9, no work after 7 pm, asleep by 10, no tea, coffee, cigarettes or alcohol, and not a single Lakkhichhara show missed."
   ],
   "faq": [
@@ -53,15 +53,15 @@
     },
     {
       "q": "How did Chowman survive the COVID lockdown?",
-      "a": "When restaurants shut overnight in March 2020, Debaditya personally presented his case to the then Chief Secretary of West Bengal and, within three days, restaurant delivery was allowed as an essential service. While he says around 60 percent of restaurants began closing and sending staff home unpaid, Chowman paid salaries on time every month, gave bonuses, hired people other restaurants had let go, launched its own app and opened at least 12 new restaurants, including its first in Bangalore."
+      "a": "When restaurants shut overnight in March 2020, Debaditya personally presented his case to the then Chief Secretary of West Bengal and, within three days, restaurant delivery was allowed as an essential service. While he says around 60 percent of restaurants began closing and sending staff home unpaid, Chowman paid salaries on time every month, gave bonuses, hired people other restaurants had let go and opened at least 12 new restaurants, including its first in Bangalore; the Chowman app had been launched shortly before."
     },
     {
       "q": "How does Chowman get so many repeat customers?",
-      "a": "Debaditya says 80 percent of Chowman's customers are repeat customers, with 20 percent new customers added every month. His first formula is employee retention: attrition in the restaurant industry is very high, but at Chowman people rarely leave because the company is run like a family. The second is the food itself, which he calls the 'content' and the hero; advertising cannot save a restaurant whose food people do not want a second time."
+      "a": "Debaditya says 80 percent of Chowman's customers are repeat customers, with 20 percent new customers added every month. His first formula is employee retention: attrition in the restaurant industry is very high, but at Chowman people rarely leave because the company is run like a family. Earlier in the episode he also says the food is the 'content' and the hero: advertising cannot save a restaurant whose food people do not want a second time."
     },
     {
       "q": "Has Debaditya Chaudhury ever had a business fail?",
-      "a": "Yes. Between Chowman and Oudh 1590 he built Master Dimsum, a quick-service chain selling momos and dim sum. It did not take off and was closed. He says he does not see it as a failure but as an experiment and an experience he carried forward; in his view, money, energy and time spent on a failed start are investment, not waste."
+      "a": "Yes. Alongside the brands people know, he built Master Dimsum, a quick-service chain selling momos and dim sum. It did not take off and was closed, and he admits one or two small things like that have failed. He says he does not see them as failures but as experiments and experience he carried forward. Barun, framing the question, says money, energy and time spent on a failed start are investment, not waste."
     },
     {
       "q": "How was the band Lakkhichhara formed?",
@@ -81,9 +81,9 @@
 }
 ---
 
-In 2010, Debaditya Chaudhury needed a chef for a Chinese restaurant that did not yet exist. He found one in a big Kolkata restaurant he refuses to name, waited outside at night until the man's shift ended, and talked him into leaving. The chef, a young Nepali named Ram, then walked into the new premises on Golf Club Road, looked at the 100 sq ft kitchen, and said the whole thing was the size of the toilet at his old workplace. "Hum yahan pe kaise khana banaye?" How am I supposed to cook here?
+In 2010, Debaditya Chaudhury needed a chef for a Chinese restaurant that did not yet exist. He found one in a big restaurant he refuses to name, waited outside at night until the man's shift ended, and talked him into leaving. The chef, a young Nepali named Ram, then walked into the new premises on Golf Club Road, looked at the 100 sq ft kitchen, and said the whole thing was the size of the toilet at his old workplace. "Hum yahan pe kaise khana banaye?" How am I supposed to cook here?
 
-Ram is still with him, now the executive chef who, by Debaditya's account, runs a kitchen operation of two and a half to three thousand people across 51 restaurants. That story is episode 19 of the Deep Down Show in miniature: a founder with a tiny room and an oversized conviction, and the people who decided to believe him.
+Ram is still with him, now the executive chef who, by Debaditya's account, runs an operation of two and a half to three thousand people across 51 restaurants. That story is episode 19 of the Deep Down Show in miniature: a founder with a tiny room and an oversized conviction, and the people who decided to believe him.
 
 Debaditya is an unusual guest for a business podcast. He co-founded the Bengali rock band Lakkhichhara and still plays keyboards for it; he also built Chowman, Oudh 1590 and Chapter 2. Host Barun wonders whether to treat him as an entrepreneur or an artist, and Debaditya wants to talk about both: how to do ব্যবসা, how to do গানবাজনা, and how to earn a living without giving up what makes you happy.
 
@@ -125,13 +125,13 @@ Barun adds that a member of his own crew who does not eat biryani was pushed by 
 
 ## Chapter 2: the Park Street of his childhood
 
-Every restaurant, Debaditya says, has a story behind it, and Chapter 2 is the most personal. As a child he went to Park Street with his family only on occasions: lunch after Durga Puja shopping, a visit before Christmas with his father or jethu. Park Street then meant continental food and live bands; he names Sky Room, an iconic restaurant that later closed. That Park Street, he says, was chapter one. Chapter 2 replicates it: the same continental food, the same feel, a live band every day, partly because live music is fading and he wanted a place where musicians could play and earn daily.
+Every restaurant, Debaditya says, has a story behind it, and Chapter 2 is the most personal. As a child he went to Park Street with his family only on occasions: lunch after Durga Puja shopping, a visit before Christmas with his father or jethu. Park Street then meant continental food and live bands; he names Sky Room, an iconic restaurant that later closed. That Park Street, he says, was chapter one. Chapter 2 replicates it: the same continental food, the same feel, a live band every day, partly because live music is fading and he wanted a place where musicians could play every day.
 
 The group now operates in Kolkata, Delhi, Hyderabad and Bangalore, with Mumbai and Chennai next; Debaditya says the plan is an IPO within two or three years. He claims Chowman is among the top three restaurants nationally in Swiggy and Zomato delivery revenue.
 
 ## 300 square feet, one lakh square feet of confidence
 
-Barun asks for the funniest, most important moment in Chowman's history, and it is the one that gives the episode its tagline.
+Barun opened by asking for the most exciting moment of the journey that he has never told in public. Debaditya comes back to it later, calling it Chowman's funniest and most important moment, and it is the one that gives the episode its tagline.
 
 > "আমার restaurant এর size ছিল 300 sq ft, তার kitchen টার size ছিল 100 sq ft, আর আমার confidence টা ছিল 1 লাখ sq ft এর।" — Debaditya Chaudhury
 
@@ -147,13 +147,13 @@ Around 60 percent of restaurants, he says, began closing, and owners told employ
 
 Salaries were paid on time every month, bonuses were given, and Chowman hired large numbers of people other restaurants had let go. In the lockdown phase the group opened at least 12 new restaurants, including its first in Bangalore, while everyone advised against it. The Chowman app, launched shortly before, now has, by his count, five lakh users ordering directly. "Chowmein is an emotion," he says: freshly cooked food will sometimes have too much salt or soy, customers will call and shout, and the next day they order again.
 
-Asked what his biggest asset is, he names his employees, not a house or a car. Walk into any Chowman, he tells listeners, insult him to any gatekeeper, chef or manager, and if that person tolerates it rather than showing the customer out, he will lock that restaurant the next day.
+If someone asks what his biggest asset is, he says, he would not name a house or a car but his employees. Walk into any Chowman, he tells listeners, insult him to any gatekeeper, chef or manager, and if that person tolerates it rather than showing the customer out, he will lock that restaurant the next day.
 
 This is also his answer to Barun's question about how retention stays so high when complaints are inevitable. Formula one is employee retention: attrition in the industry is so high that people leave for 500 rupees more, but at Chowman almost nobody leaves, because the place runs like a family. Barun, who ran his own restaurant in Durgapur before it closed (the story is in the [Adda Khana episode](/episodes/adda-khana-durgapur-tea-shop-business/)), says he relates completely.
 
 ## The failure, and the discipline
 
-Barun points out that every interview makes the journey sound smooth, which cannot be true. Debaditya concedes one casualty: Master Dimsum, a quick-service chain selling momos and dim sum, which did not work and was closed. He counts it as an experiment, not a failure; money and energy spent on a start that fails are investment, because they teach the next one.
+Barun points out that every interview makes the journey sound smooth, which cannot be true; most entrepreneurs, he says, fail two or three starts first, and the money, energy and time spent are investment rather than waste. Debaditya concedes one or two small casualties, chiefly Master Dimsum, a quick-service chain selling momos and dim sum, which did not work and was closed. He counts it as an experiment and an experience, not a failure.
 
 His two qualities, he says, are extreme courage and a slightly extra "chip" for business. But the closing minutes are about discipline. He is out of Kolkata four days a week and, when home, drops his daughter at school every morning, walks his dog Sushi, goes to the gym, and never works after 7 pm. He wakes at five, reaches the office by 8:30 or 9, and is asleep by ten. No tea, coffee, cigarettes or alcohol, no parties. He never misses a Lakkhichhara show, and during Durga Puja, the peak season, he tours with the band, this year 21 days in the US, while the team runs the business. The 7 pm rule, he admits, did not exist while the team was being built. Now decisions are taken collectively; he calls it a democratic company.
 
