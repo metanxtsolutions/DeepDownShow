@@ -40,17 +40,21 @@ def download(vid):
     return wav
 
 def run_whisper(wav):
+    prefix = wav.with_suffix('')
     cmd = [WHISPER, '-m', MODEL, '-l', 'bn', '-t', '8', '-np', '-mc', '0', '-nf', '-bo', '1', '-bs', '1', '-et', '2.4',
-           '--vad', '--vad-model', VAD, '-f', str(wav)]
-    out = subprocess.run(cmd, capture_output=True, text=True, check=True).stdout
+           '--vad', '--vad-model', VAD, '-osrt', '-of', str(prefix), '-f', str(wav)]
+    subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, check=True)
+    # whisper.cpp tokens are byte-level, so a multibyte character can straddle a segment: decode leniently.
+    srt = prefix.with_suffix('.srt').read_bytes().decode('utf-8', 'replace').replace('\ufffd', '')
     segs = []
-    for line in out.splitlines():
-        m = re.match(r'\[(\d+):(\d+):(\d+)\.\d+ --> [^\]]+\]\s*(.*)', line)
-        if m:
-            t = int(m.group(1)) * 3600 + int(m.group(2)) * 60 + int(m.group(3))
-            text = m.group(4).strip()
-            if text:
-                segs.append((t, text))
+    for block in re.split(r'\n\s*\n', srt.strip()):
+        lines = block.strip().split('\n')
+        if len(lines) < 3: continue
+        m = re.match(r'(\d+):(\d+):(\d+)[,.]\d+ -->', lines[1])
+        if not m: continue
+        t = int(m.group(1)) * 3600 + int(m.group(2)) * 60 + int(m.group(3))
+        text = ' '.join(l.strip() for l in lines[2:]).strip()
+        if text: segs.append((t, text))
     return segs
 
 def collapse_repeats(text):
