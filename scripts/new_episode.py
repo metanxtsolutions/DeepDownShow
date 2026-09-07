@@ -39,8 +39,8 @@ except Exception as e:
     print('caption fetch failed:', e); ok = False
 if not ok:
     print('No usable Bangla captions — transcribing locally with Whisper (this takes a few minutes per hour of audio)…')
-    py = Path.home() / '.venvs' / 'dds-stt' / 'bin' / 'python'
-    subprocess.run([str(py), str(ROOT / 'scripts' / 'transcribe.py'), vid], check=True)
+    subprocess.run([sys.executable, str(ROOT / 'scripts' / 'transcribe.py'), vid], check=True)
+    subprocess.run([sys.executable, str(ROOT / 'scripts' / 'transcript_quality.py'), vid])
 meta = json.loads(meta_path.read_text(encoding='utf-8'))
 
 # 3. scaffold

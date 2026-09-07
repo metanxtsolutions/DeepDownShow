@@ -73,9 +73,30 @@ One-time setup for transcripts:
 
 ```bash
 python3 -m pip install --user youtube-transcript-api
-brew install yt-dlp python@3.12
-python3.12 -m venv ~/.venvs/dds-stt && ~/.venvs/dds-stt/bin/pip install mlx-whisper youtube-transcript-api
+brew install yt-dlp whisper-cpp ffmpeg
 ```
+
+YouTube's own Bangla auto-captions are used when they exist (episodes from 2024 on).
+Older recordings are mislabelled by YouTube as English or Hindi, and vanilla Whisper
+loops and garbles their Bangla, so `scripts/transcribe.py` runs whisper.cpp with a
+Bangla fine-tune converted to ggml. The IISc Vaani model (spontaneous Indian speech)
+gave the most coherent output; Mozilla's `whisper-large-v3-turbo-bn` is a good second.
+To build the model file once:
+
+```bash
+python3.12 -m venv ~/.venvs/dds-stt && ~/.venvs/dds-stt/bin/pip install torch transformers openai-whisper huggingface_hub
+curl -sL -o ~/.cache/whisper-cpp/convert-h5-to-ggml.py https://raw.githubusercontent.com/ggml-org/whisper.cpp/master/models/convert-h5-to-ggml.py
+~/.venvs/dds-stt/bin/python -c "from huggingface_hub import snapshot_download; snapshot_download('ARTPARK-IISc/whisper-medium-vaani-bengali', local_dir='$HOME/.cache/whisper-cpp/hf-vaani')"
+SITE=$(~/.venvs/dds-stt/bin/python -c 'import whisper,os;print(os.path.dirname(os.path.dirname(whisper.__file__)))')
+mkdir -p ~/.cache/whisper-cpp/out-vaani && ~/.venvs/dds-stt/bin/python ~/.cache/whisper-cpp/convert-h5-to-ggml.py ~/.cache/whisper-cpp/hf-vaani "$SITE" ~/.cache/whisper-cpp/out-vaani
+curl -sL -o ~/.cache/whisper-cpp/ggml-silero-v5.1.2.bin https://huggingface.co/ggml-org/whisper-vad/resolve/main/ggml-silero-v5.1.2.bin
+export DDS_WHISPER_MODEL=~/.cache/whisper-cpp/out-vaani/ggml-model.bin
+```
+
+Always run `python3 scripts/transcript_quality.py <id>` afterwards: only GOOD or WEAK
+transcripts may be turned into articles, and WEAK ones get shorter, more conservative
+articles. `scripts/transcribe_cloud.py` is an optional alternative if an API key for
+OpenAI, Gemini or ElevenLabs is ever available.
 
 `transcripts/` is git-ignored (regenerate with the scripts above).
 
