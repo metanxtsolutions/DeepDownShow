@@ -1,54 +1,77 @@
 #!/usr/bin/env python3
-"""Transcribe YouTube videos locally with Whisper (Apple Silicon, MLX).
+"""Transcribe YouTube videos locally with whisper.cpp (Metal on Apple Silicon).
 
-Usage: ~/.venvs/dds-stt/bin/python scripts/transcribe.py VIDEO_ID [VIDEO_ID ...]
-Env:   DDS_AUDIO_DIR (where audio is cached, default /tmp/dds-audio)
-       DDS_WHISPER_MODEL (default mlx-community/whisper-large-v3-turbo)
+Usage: python3 scripts/transcribe.py VIDEO_ID [VIDEO_ID ...]
+Env:   DDS_WHISPER_MODEL  path to a ggml model (default ~/.cache/whisper-cpp/ggml-large-v3-q5_0.bin)
+       DDS_VAD_MODEL      path to the Silero VAD ggml model (default ~/.cache/whisper-cpp/ggml-silero-v5.1.2.bin)
+       DDS_AUDIO_DIR      audio cache (default /tmp/dds-audio)
+       DDS_DENOISE=1      apply an ffmpeg high-pass/denoise/normalise chain first
+Requires: brew install yt-dlp whisper-cpp ffmpeg
 
-Downloads audio with yt-dlp, transcribes in Bangla, writes transcripts/<id>.txt
-(timestamped, ~30 s blocks) and transcripts/<id>.json. Use this when YouTube's
-auto-captions are missing or in the wrong language.
+Downloads the audio with yt-dlp, converts to 16 kHz mono WAV, runs whisper-cli in
+Bangla with greedy decoding, no context carry-over and VAD segmentation (which keeps
+the model from looping on hard audio), and writes transcripts/<id>.txt (timestamped
+~30 s blocks) and transcripts/<id>.json. Use this when YouTube has no usable Bangla
+captions. Always run scripts/transcript_quality.py on the result before writing.
 """
-import json, os, subprocess, sys, time
+import json, os, re, subprocess, sys, time
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from transcript import metadata, OUT
 
+HOME = Path.home()
 AUDIO = Path(os.environ.get('DDS_AUDIO_DIR', '/tmp/dds-audio'))
-MODEL = os.environ.get('DDS_WHISPER_MODEL', 'mlx-community/whisper-large-v3-turbo')
+MODEL = os.environ.get('DDS_WHISPER_MODEL', str(HOME / '.cache/whisper-cpp/ggml-large-v3-q5_0.bin'))
+VAD = os.environ.get('DDS_VAD_MODEL', str(HOME / '.cache/whisper-cpp/ggml-silero-v5.1.2.bin'))
 YTDLP = os.environ.get('YTDLP', '/opt/homebrew/bin/yt-dlp')
+WHISPER = os.environ.get('WHISPER_CLI', 'whisper-cli')
+DENOISE = os.environ.get('DDS_DENOISE') == '1'
 
 def download(vid):
     AUDIO.mkdir(parents=True, exist_ok=True)
-    existing = list(AUDIO.glob(f'{vid}.*'))
-    if existing:
-        return existing[0]
-    subprocess.run([YTDLP, '-q', '--no-warnings', '-f', 'bestaudio[ext=m4a]/bestaudio', '-o', str(AUDIO / '%(id)s.%(ext)s'),
-                    f'https://www.youtube.com/watch?v={vid}'], check=True)
-    return list(AUDIO.glob(f'{vid}.*'))[0]
+    ex = list(AUDIO.glob(f'{vid}.m4a')) + [p for p in AUDIO.glob(f'{vid}.*') if p.suffix != '.wav']
+    if not ex:
+        subprocess.run([YTDLP, '-q', '--no-warnings', '-f', 'bestaudio[ext=m4a]/bestaudio', '-o', str(AUDIO / '%(id)s.%(ext)s'), f'https://www.youtube.com/watch?v={vid}'], check=True)
+        ex = [p for p in AUDIO.glob(f'{vid}.*') if p.suffix != '.wav']
+    wav = AUDIO / f'{vid}.wav'
+    if not wav.exists():
+        af = 'highpass=f=120,afftdn=nf=-28:nr=15:tn=1,dynaudnorm=f=150:g=15' if DENOISE else 'anull'
+        subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', str(ex[0]), '-ac', '1', '-ar', '16000', '-af', af, str(wav)], check=True)
+    return wav
+
+def run_whisper(wav):
+    cmd = [WHISPER, '-m', MODEL, '-l', 'bn', '-t', '8', '-np', '-mc', '0', '-nf', '-bo', '1', '-bs', '1', '-et', '2.4',
+           '--vad', '--vad-model', VAD, '-f', str(wav)]
+    out = subprocess.run(cmd, capture_output=True, text=True, check=True).stdout
+    segs = []
+    for line in out.splitlines():
+        m = re.match(r'\[(\d+):(\d+):(\d+)\.\d+ --> [^\]]+\]\s*(.*)', line)
+        if m:
+            t = int(m.group(1)) * 3600 + int(m.group(2)) * 60 + int(m.group(3))
+            text = m.group(4).strip()
+            if text:
+                segs.append((t, text))
+    return segs
+
+def collapse_repeats(text):
+    """Collapse runs of the same word/phrase repeated 3+ times (a Whisper failure mode)."""
+    text = re.sub(r'(\S+)(\s+\1){2,}', r'\1', text)
+    text = re.sub(r'((?:\S+\s+){1,4}?)(\1){2,}', r'\1', text)
+    return text
 
 def transcribe(vid):
-    import mlx_whisper
-    audio = download(vid)
-    t0 = time.time()
-    res = mlx_whisper.transcribe(str(audio), path_or_hf_repo=MODEL, language='bn', task='transcribe',
-                                 condition_on_previous_text=False, no_speech_threshold=0.5, verbose=False)
-    lines, block, block_start = [], [], 0.0
-    for s in res['segments']:
-        text = s['text'].strip()
-        if not text:
-            continue
-        if s['start'] - block_start >= 30 and block:
-            lines.append(f'[{int(block_start)//60:02d}:{int(block_start)%60:02d}] ' + ' '.join(block))
-            block, block_start = [], s['start']
+    t0 = time.time(); wav = download(vid); segs = run_whisper(wav)
+    lines, block, block_start = [], [], 0
+    for t, text in segs:
+        if t - block_start >= 30 and block:
+            lines.append(f'[{block_start//60:02d}:{block_start%60:02d}] ' + collapse_repeats(' '.join(block)))
+            block, block_start = [], t
         block.append(text)
     if block:
-        lines.append(f'[{int(block_start)//60:02d}:{int(block_start)%60:02d}] ' + ' '.join(block))
-    try:
-        meta = metadata(vid)
-    except Exception as e:
-        meta = {'id': vid, 'metadata_error': str(e)}
-    meta['captions'] = {'lang': 'bn', 'source': MODEL}
+        lines.append(f'[{block_start//60:02d}:{block_start%60:02d}] ' + collapse_repeats(' '.join(block)))
+    try: meta = metadata(vid)
+    except Exception as e: meta = {'id': vid, 'metadata_error': str(e)}
+    meta['captions'] = {'lang': 'bn', 'source': f'whisper.cpp {Path(MODEL).name}' + (' +denoise' if DENOISE else '')}
     meta['transcriptWords'] = sum(len(l.split()) for l in lines)
     OUT.mkdir(exist_ok=True)
     (OUT / f'{vid}.txt').write_text('\n'.join(lines), encoding='utf-8')
@@ -57,7 +80,5 @@ def transcribe(vid):
 
 if __name__ == '__main__':
     for vid in sys.argv[1:]:
-        try:
-            print(transcribe(vid), flush=True)
-        except Exception as e:
-            print(f'{vid}: ERROR {type(e).__name__}: {str(e)[:300]}', flush=True)
+        try: print(transcribe(vid), flush=True)
+        except Exception as e: print(f'{vid}: ERROR {type(e).__name__}: {str(e)[:300]}', flush=True)
