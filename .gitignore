@@ -3,3 +3,4 @@ dist/
 .vercel
 .claude/
 transcripts/
+.dds-stt.env

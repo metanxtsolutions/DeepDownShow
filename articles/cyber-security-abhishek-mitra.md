@@ -37,7 +37,7 @@
 }
 ---
 
-A few days before this recording, a man in a district of West Bengal sold a piece of land. To complete the paperwork he handed over a photocopy of his Aadhaar card and pressed his thumb on a biometric scanner. Days later, about 50,000 taka had left his bank account. No OTP had been sent, no password stolen. When the news channels asked him what had happened, the answer turned out to be simple: his Aadhaar biometric had never been locked.
+Not long before this recording, a man in a district of West Bengal went through a land transaction. To complete the paperwork he handed over a photocopy of his Aadhaar card and gave a biometric scan. Days later, about 50,000 taka had left his bank account, and no OTP had ever been sent. When the news channels asked him what had happened, the answer turned out to be simple: his Aadhaar biometric had never been locked.
 
 That story is how Abhishek Mitra, founder of Indian Cyber Security Solutions and the Indian Institute of Cyber Security, opens the practical part of episode 16 of the Deep Down Show, the বাংলা পডকাস্ট hosted by Barun. Mitra is an unusual guide to the সাইবার জগৎ: he has no engineering degree, studied BBA and then MBA, and walked into cyber security through a sales job. Ten years on, his company counts more than 120 clients across the globe, and he trains law enforcement agencies.
 
@@ -69,7 +69,7 @@ But the danger, he insists, is real. He describes how IP-based CCTV cameras that
 
 The Aadhaar section is the most practical stretch of the episode. Barun compares Aadhaar to the American SSN: everything, bank to workplace, hangs off it, so how secure is it?
 
-Mitra's answer is that the biometric is the ultimate authentication. Your fingerprint can authenticate a payment at a ration shop, activate a new SIM, update KYC, or move money from any bank account linked to your Aadhaar. In the land-sale case, the victim had handed over both the Aadhaar scan and the biometric; a middleman in that chain passed the data to scammers, and with an unlocked biometric they could transact in his name.
+Mitra's answer is that the biometric is the ultimate authentication. Your fingerprint can authenticate a payment at a ration shop, activate a new SIM, update KYC, or move money from any bank account linked to your Aadhaar. In the land-deal case, the victim had handed over both the Aadhaar scan and the biometric; Mitra suspects a middleman in that chain passed the data to scammers, and with an unlocked biometric they could transact in his name.
 
 His instruction is blunt and repeated: go to mAadhaar and lock your biometric. There are, he says, a thousand YouTube videos titled "how to lock your biometric through mAadhaar". A locked biometric means only you can unlock it, and only for the places where it is required. He adds two older habits worth keeping: write the purpose across any photocopy of your Aadhaar so it cannot be reused, and watch the photocopy shop, especially an unfamiliar one, because two copies sometimes come out of the machine.
 
@@ -105,7 +105,7 @@ He offers one operational detail: never run Tor full-screen. Your screen size be
 
 With elections approaching, Barun asks what a deep fake is. Mitra starts with the older technique, morphing, where a face was pasted into a photograph, often pornographic, as celebrities have long suffered. A deep fake is the next step, done by AI: given enough video of someone's facial expressions, their face, hair and body structure can be placed onto another person in motion, convincingly. His example is the Rashmika Mandanna lift video: the woman in the clip was someone else, whose Instagram video had been overlaid with the actor's face. She tweeted about it the next day. He also cites US election clips showing a former president being arrested by the FBI, and Prime Minister Narendra Modi's own comment that a video of him playing garba was not him and should at least have carried a disclaimer.
 
-His proposed fix mirrors the VPN rule: deep fake tools require an application to be downloaded, so the source is known, and those applications should be required to keep a record of what is generated. He contrasts that with ChatGPT, which refuses a question like "how can I poison my wife", and warns that the GPT-4 API and Google's Gemini let others build on these models, so centralised control matters.
+His proposed fix mirrors the VPN rule: deep fake tools require an application to be downloaded, so the source is known, and those applications should be required to keep a record of what is generated. He contrasts that with ChatGPT, which refuses a question like "how can I poison my wife", but warns that the GPT-4 API lets others build on the model and steer it elsewhere; he mentions Google's Gemini, which his own team uses for security work, and says the centralised control over these systems has to be kept.
 
 > লাস্ট ইয়ার 2023 তে যখন চ্যাট জিপিটি ওয়াজ বর্ন, আমার ফার্স্ট রিএকশন ছিল যে টার্মিনেটর হ্যাজ কাম। — Abhishek Mitra
 
@@ -125,13 +125,13 @@ His response to callers who ring him in panic is consistent. Why respond at all?
 
 > ইফ ইউ একচুয়ালি কমিটেড এ ক্রাইম, দেন অনলি ইউ শুড ফিয়ার। — Abhishek Mitra
 
-Only if you have actually committed a crime should you fear. If money has already been extracted, he tells them to register a complaint at cybercrime.gov.in and file an FIR first; after that, he will try his own sources. He also describes a case from Uttar Pradesh where a bank loan recovery agent used a deep fake to demand sexual favours from a widow whose late husband had a loan, and warns that with about ten minutes of someone's audio, text-to-speech software (he mentions Adobe's) can make them say "I want to kill the prime minister". The defence against fabricated media is background verification: the original video always exists somewhere, and finding it is how the Rashmika clip was exposed.
+Only if you have actually committed a crime should you fear. If money has already been extracted, he tells them to register a complaint at cybercrime.gov.in and file an FIR first; after that, he will try his own sources. He also describes a case from Uttar Pradesh where a bank loan recovery agent threatened a widow whose late husband had a loan with a fabricated deep fake to demand sexual favours, and warns that with about ten minutes of someone's audio, text-to-speech software (he mentions Adobe's) can make them say "I want to kill the prime minister". The defence against fabricated media is background verification: the original video always exists somewhere, which is how the media traced the Rashmika clip.
 
-On communal deep fakes, which he says circulated around recent Hindu-Muslim clashes, his advice is to be a proactive citizen rather than a reactive one: keep your opinion to yourself, do not try to influence others, and do not run to abuse someone because a video told you to. He also credits the government with three useful moves: the geo-targeted emergency alert that rang on every phone recently, the limit on WhatsApp forwards, and the ability to shut down the internet in an area, a tool used in Kashmir for decades, though he notes it can be abused by governments too.
+On communal deep fakes, which Barun says circulated around recent Hindu-Muslim clashes, Mitra's advice is to be a proactive citizen rather than a reactive one: keep your opinion to yourself, do not try to influence others, and do not run to abuse someone because a video told you to. He also credits the government with three useful moves: the geo-targeted emergency alert that rang on every phone recently, the limit on WhatsApp forwards, and the ability to shut down the internet in an area, a tool used in Kashmir for decades, though he notes it can be abused by governments too.
 
 ## Marrying your business partner
 
-Barun shifts to the personal, asking how a hustler keeps a relationship alive when the business eats his time. Mitra's answer is that he always wanted a wife who was independent and could carry a common dream on her own. He met Shilpi through an NGO in Purulia when he was invited to Nistarini College, a women's college in his home town, to speak on "good touch, bad touch in the cyber world"; she was one of the front-running speakers on the physical-world version of the same topic. Anyone who can lead an unpaid NGO, he reasoned, has the capability to run things.
+Barun shifts to the personal, asking how a hustler keeps a relationship alive when the business eats his time. Mitra's answer is that he always wanted a wife who was independent and could carry a common dream on her own. He met Shilpi through an NGO in Purulia called Upohar, when he was invited to Nistarini College, a women's college in his home town, to speak on "good touch, bad touch in the cyber world"; she was one of the front-running speakers on the physical-world version of the same topic. Anyone who can lead an unpaid NGO, he reasoned, has the capability to run things.
 
 Today she is a partner in his company and heads its HR division, from recruitment onward, so the complaint "you never give me time" does not arise, because the work pressure is shared equally. She also teaches tuition in their housing complex and runs a women's garments brand that he named Wonder Girl. He cites Sugar Cosmetics as an enterprise run by a husband and wife, and says his parents make fewer demands because they know their daughter-in-law works with their son. The couple's small luxury is taking weekday holidays: on 26 January or a Sunday everyone is out, so they go to the cinema or on a trip on a Monday. "ইউ ক্যান বি ইউর ওন বস," he says.
 
@@ -151,7 +151,7 @@ The family history explains the fearlessness. He was bullied at school; his moth
 
 ## "Degree vs career" and the aquarium
 
-Barun confesses that he is an engineer who now makes podcasts and had half hoped the cyber security talk would take him back to his college syllabus. Mitra's reply is the line the episode's description leads with, in a slightly different form:
+Barun confesses that he is an engineer who now makes podcasts and had half hoped the cyber security talk would take him back to his college syllabus. Mitra's reply is the line the episode's cold open is cut around:
 
 > তুমি কি পড়ছো ম্যাটার করে না, তুমি কিসে ইন্টারেস্টেড সেটা ম্যাটার করে, এবং লাইফ তোমাকে কোথায় নিয়ে যায়। — Abhishek Mitra
 
