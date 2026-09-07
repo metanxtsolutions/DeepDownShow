@@ -40,6 +40,45 @@ back to YouTube's CDN. To add a new episode, drop its thumbnail here:
 curl -sL "https://i.ytimg.com/vi/<videoId>/maxresdefault.jpg" -o thumbs/<videoId>.jpg
 ```
 
+## Episode articles
+
+Every episode has a full SEO article at `/episodes/<slug>/`, written from the complete
+transcript of the video (never from the title or description alone). Sources live in
+`articles/<slug>.md` (JSON front matter + Markdown body); the pages, the index at
+`/episodes/`, `sitemap.xml` and `robots.txt` are generated:
+
+```bash
+python3 scripts/build_articles.py
+```
+
+Set the production domain once in `site.json` (`url`); canonical URLs, Open Graph
+tags, schema and the sitemap all use it.
+
+### Adding a new episode (the workflow)
+
+1. `python3 scripts/new_episode.py <videoId> --slug <clean-slug>` downloads the
+   thumbnail, fetches the complete transcript (Bangla auto-captions, or a local Whisper
+   transcription via `scripts/transcribe.py` when captions are missing or in the wrong
+   language) and scaffolds `articles/<slug>.md`.
+2. Read `docs/article-guide.md`, then read the whole transcript, then write the article
+   (SEO title, meta description, lede, keywords in English and Bangla, takeaways, FAQ,
+   related links, clips) into the scaffold.
+3. Add the episode to `EPISODES` in `js/main.js` and to `docs/episodes.json`.
+4. `python3 scripts/build_articles.py && python3 build.py`, then commit and push.
+
+In Claude Code the whole sequence is one command: `/article <videoId or URL>`
+(see `.claude/commands/article.md`).
+
+One-time setup for transcripts:
+
+```bash
+python3 -m pip install --user youtube-transcript-api
+brew install yt-dlp python@3.12
+python3.12 -m venv ~/.venvs/dds-stt && ~/.venvs/dds-stt/bin/pip install mlx-whisper youtube-transcript-api
+```
+
+`transcripts/` is git-ignored (regenerate with the scripts above).
+
 ## Build the single-file version
 
 ```bash
@@ -58,6 +97,9 @@ that block iframes, such as the Claude artifact viewer).
 | `css/style.css` | Design tokens (dark-first, light theme via `prefers-color-scheme` or `data-theme`), components, responsive rules, reduced-motion rules |
 | `js/main.js` | Content data and behaviour: episode grid + filters, shorts and guest rails, clips stack, modal YouTube player, theme toggle, reveal animations, count-up stats |
 | `build.py` | Bundles everything into `dist/deep-down-show.html` |
+| `articles/`, `episodes/` | Article sources and the generated article pages |
+| `scripts/` | `transcript.py`, `transcribe.py`, `new_episode.py`, `build_articles.py` |
+| `docs/` | `article-guide.md` (writing rules) and `episodes.json` (slug registry) |
 | `thumbs/` | Episode, short and clip thumbnails served by the site |
 | `vercel.json` | Vercel headers and URL settings |
 | `assets/` | Channel logo mark, show banner, favicon |

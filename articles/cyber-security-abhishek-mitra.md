@@ -1,0 +1,170 @@
+---
+{
+  "video_id": "UafYhxJs_oI",
+  "video_title": "Cyber Attacks, Cyber Security, Startup, Love, Relation & many more | Abhishek Mitra x Barun | DDS 16",
+  "episode": 16,
+  "slug": "cyber-security-abhishek-mitra",
+  "title": "Abhishek Mitra on Cyber Security, Deep Fakes & Aadhaar",
+  "title_bn": "সাইবার সিকিউরিটি, ডিপ ফেক ও আধার: অভিষেক মিত্র",
+  "meta_description": "Cyber security founder Abhishek Mitra on Aadhaar biometric locks, deep fakes, the dark web, Facebook blackmail scams and building a startup from Purulia.",
+  "lede": "An MBA with no coding background who built a cyber security company from Purulia explains how Aadhaar fraud actually happens, why 100% security is a myth, and why failure is the most important part of life.",
+  "guest": "Abhishek Mitra",
+  "guest_role": "Founder, Indian Cyber Security Solutions and Indian Institute of Cyber Security",
+  "category": "science",
+  "published": "2024-04-27",
+  "duration": "1:35:13",
+  "keywords": ["cyber security", "সাইবার সিকিউরিটি", "Abhishek Mitra", "Indian Cyber Security Solutions", "Aadhaar biometric lock", "আধার কার্ড সুরক্ষা", "deep fake", "ডিপ ফেক", "dark web", "ethical hacking", "Facebook blackmail scam", "cyber security course Kolkata", "বাংলা পডকাস্ট", "Deep Down Show"],
+  "takeaways": [
+    "Lock your Aadhaar biometric through mAadhaar: Mitra describes a Bengal case where a land deal that took a biometric scan and an Aadhaar copy ended with about 50,000 taka drained from the victim's account, no OTP involved.",
+    "Judge every app by the permissions it asks for: a food app needs your location, but a calculator that wants your gallery, contacts and admin privileges should be uninstalled and replaced.",
+    "Mitra argues that 100% security is a myth and privacy depends on the individual; the weakest link in any security system is the human being, not the machine.",
+    "The dark web is reached through the Tor browser and DuckDuckGo, runs on untraceable Bitcoin payments, and one small giveaway, a full-screen browser window, can help someone fingerprint you.",
+    "A deep fake needs a source video that already exists somewhere online, so background verification, finding the original footage, is the first way to expose one, as happened with the Rashmika Mandanna clip.",
+    "If a stranger's WhatsApp video call turns into blackmail, do not pay and do not panic: report at cybercrime.gov.in, file an FIR, and remember that only someone who has actually committed a crime has reason to fear.",
+    "Mitra built Indian Cyber Security Solutions as a first-generation entrepreneur with no family funding, and his advice to parents is to let children fail, because failure is the most important thing in life."
+  ],
+  "faq": [
+    {"q": "How do I protect my Aadhaar card from fraud?", "a": "Abhishek Mitra's first advice is to lock your biometric in the mAadhaar app, because the fingerprint is the ultimate authentication for Aadhaar-linked bank accounts, SIM purchases and ration payments. He also suggests writing the purpose across any photocopy of the card and watching that a photocopy shop does not print extra copies. In the case he describes, the victim had handed over both an Aadhaar scan and a biometric for a land transaction, and the biometric was not locked."},
+    {"q": "What is the difference between ethical hacking and hacking?", "a": "According to Mitra, ethical hacking simply means hacking with permission. Companies hire security professionals to test their web, network, cloud and IP-based devices and report how far an outside attacker could get. Unethical hackers are the scammers behind OTP fraud, ATM fraud and ransomware. White hat hackers work with permission, black hats without, and grey hats do both, like the young hacker who helps the police in the film A Wednesday."},
+    {"q": "Is hacking as easy as it looks in movies?", "a": "Mitra says series like Mr. Robot show real, step-by-step processes because cyber security professionals sit with the writers, while many Indian and Bangla films borrow the words but cannot show the steps. Real attacks follow a process, but they are possible: he explains how IP-based CCTV cameras left with no password or a default password can be found through Google dorking and watched remotely."},
+    {"q": "What is the dark web and how is it accessed?", "a": "Mitra explains that the deep or dark web makes up roughly 90 to 99 percent of the internet, while ordinary users only see the surface. It is accessed through the Tor browser, which routes your IP through layers like an onion, with DuckDuckGo as the search engine. Drugs, contract killings and stolen credit card numbers are traded there, paid in Bitcoin, which makes transactions very hard to trace."},
+    {"q": "How can you tell if a video is a deep fake?", "a": "Mitra's main tool is background verification. A deep fake is built on a real video that already exists, so searching for the original footage exposes it. In the Rashmika Mandanna case, the media found the original Instagram video of another woman onto which her face had been placed. He also warns that with about ten minutes of someone's audio, text-to-speech tools can fabricate their voice, so nothing should be believed until authenticated."},
+    {"q": "What should I do if I am blackmailed after a WhatsApp video call?", "a": "Mitra describes the standard scam: a locked female Facebook profile with a recent photo sends a request, says hi, asks to chat, moves to WhatsApp and records your face during a video call while playing a clip on the other side. His advice is not to fear or pay. Register a complaint at cybercrime.gov.in and file an FIR. If someone claims to have a case against you, ask to see the FIR and speak to a lawyer first."},
+    {"q": "Can a non-technical person build a career in cyber security?", "a": "Yes. Mitra himself studied BBA and MBA and entered the field through a sales job at a training company in 2013 before getting CEH and ISO 27001 certified. He says non-technical people can start with network security, while those with programming skills can add application security. Certifications he names are OSCP, ISO 27001 ISMS for the management side, CISA and CISSP, and his institute takes students from basic to advanced level with no eligibility bar."}
+  ],
+  "related": ["aarijit-hajra-ai-business-education", "avelo-roy-kolkata-ventures-startup-spirituality", "self-defence-martial-arts-gourav-banerjee", "3d-printing-organ-printing"],
+  "clips": []
+}
+---
+
+A few days before this recording, a man in a district of West Bengal sold a piece of land. To complete the paperwork he handed over a photocopy of his Aadhaar card and pressed his thumb on a biometric scanner. Days later, about 50,000 taka had left his bank account. No OTP had been sent, no password stolen. When the news channels asked him what had happened, the answer turned out to be simple: his Aadhaar biometric had never been locked.
+
+That story is how Abhishek Mitra, founder of Indian Cyber Security Solutions and the Indian Institute of Cyber Security, opens the practical part of episode 16 of the Deep Down Show, the বাংলা পডকাস্ট hosted by Barun. Mitra is an unusual guide to the সাইবার জগৎ: he has no engineering degree, studied BBA and then MBA, and walked into cyber security through a sales job. Ten years on, his company counts more than 120 clients across the globe, and he trains law enforcement agencies.
+
+The conversation covers Aadhaar security, app permissions, the dark web, deep fakes, ChatGPT and state-sponsored cyber attacks, and then turns personal: a marriage that doubles as a business partnership, a 20 kg weight loss, a father in Purulia who registered his son's first company, and a philosophy summed up in one line, "Failure is the most important part of life."
+
+## From an MBA with no placement to a cyber security company
+
+Barun's first question is the obvious one: how does a non-technical MBA end up in cyber security? Mitra's answer starts with a familiar Bengali graduate experience. There was no campus placement after his MBA. A friend named Arijit got a call for a walk-in interview and asked Mitra to come along. The company was a franchise offering training in Java, Python, C programming and, as one part of its catalogue, cyber security. This was 2013. Mitra was selected, on the sales side.
+
+Two things changed his path. Students, he noticed, found cyber security far more attractive than any other course, and the buzzword of the time was not even "cyber security" but "ethical hacking", which sounded good and looked good in films. And he became close friends with Prasenjit Kanti Pal, now working in cyber security at an MNC, who would pull him into research mode: hack the neighbour's WiFi and see how it works, gather information on a server, answer the fundamental questions that cleared his doubts.
+
+Only after that did he study formally: EC-Council's Certified Ethical Hacker, then ISO 27001 ISMS auditor. He joined a second cyber security company and, two years later, in 2016, started his own venture. He points out that he took the course after starting the company, because the thing a business needs first is proof of demand, and as a salesperson he had already seen it.
+
+> এই আইটির ফিল্ডে সাইবার সিকিউরিটি ইজ ওয়ান অফ দ্যা বিগেস্ট থিং দ্যাট ইজ গোইং টু হ্যাপেন, এবং 2013-14 তে এইটা আমার কাছে ক্লিয়ার ছিল। — Abhishek Mitra
+
+In this IT field, he says, cyber security was going to be one of the biggest things to happen, and that was clear to him in 2013-14, even when companies were not yet acting proactively.
+
+Today the company provides security to clients including Qatar Development Bank, HDFC Life and, in Kolkata, Indus Net Technologies. Mitra says he has deliberately kept the sales team very small and relies on digital marketing (he holds a diploma in it himself) and organic growth: clients find them, the solution is "easy to the pocket and gives a proper solution". The institute side takes students from basic to advanced with no eligibility bar, technical or not.
+
+## White hat, black hat, grey hat
+
+Barun asks where the line falls between ethical and unethical hacking. Mitra's definition is short: ethical means with permission. A company hands a security professional its IT infrastructure, web, network, cloud, IP-based devices, and says, test it and show us how far an attacker could get. Unethical hacking is the scammer stealing OTPs over the phone, ATM fraud, compromising a company and planting ransomware. The word "hacker" itself, he notes, is a negative word; "ethical" was added because once you take permission you act as a white hat. Black hats work without permission, grey hats do both. His example is the young hacker in the Hindi film A Wednesday who tracks calls for the police: someone who once worked in black hat mode and now helps law enforcement.
+
+Is it as easy as the movies make it look? Mitra separates two kinds of film. Mr. Robot and similar Hollywood productions show the process step by step, because cyber security professionals sit with the writers. Some Indian and Bangla films, which he declines to name, take the vocabulary but cannot show the steps. Even a well-made series like The Family Man, he says, is visibly "not proper hacking".
+
+But the danger, he insists, is real. He describes how IP-based CCTV cameras that have no user ID and password, or still carry the old default one, can be found through Google dorking. Then he sketches a scenario: a terrorist leaves a bomb in a dustbin in a market, leaves the country, watches that open camera for the moment the crowd is thickest, and triggers it. "এইগুলো একটা ডেঞ্জারাস জিনিস," he says; these are dangerous things, and when films show them, that part is fact.
+
+## Aadhaar, biometrics and the mAadhaar lock
+
+The Aadhaar section is the most practical stretch of the episode. Barun compares Aadhaar to the American SSN: everything, bank to workplace, hangs off it, so how secure is it?
+
+Mitra's answer is that the biometric is the ultimate authentication. Your fingerprint can authenticate a payment at a ration shop, activate a new SIM, update KYC, or move money from any bank account linked to your Aadhaar. In the land-sale case, the victim had handed over both the Aadhaar scan and the biometric; a middleman in that chain passed the data to scammers, and with an unlocked biometric they could transact in his name.
+
+His instruction is blunt and repeated: go to mAadhaar and lock your biometric. There are, he says, a thousand YouTube videos titled "how to lock your biometric through mAadhaar". A locked biometric means only you can unlock it, and only for the places where it is required. He adds two older habits worth keeping: write the purpose across any photocopy of your Aadhaar so it cannot be reused, and watch the photocopy shop, especially an unfamiliar one, because two copies sometimes come out of the machine.
+
+Barun then asks the bigger question: how secure is the server where all this is stored? Mitra turns it into a defence of India's digitisation. He argues that no foreign country can do what UPI does, that linking Aadhaar to payments controls corruption, and that money which once sat for decades in the savings accounts of the dead now rotates through the economy, from the paan shop to the phuchka-wala. Fewer people carry cash, so there is less theft and pickpocketing. He also walks through the layers protecting a phone: IMEI tracking, remote lock, and security apps that photograph anyone who fails to unlock the phone three times and send the picture to a trusted contact on WhatsApp.
+
+## App permissions and why privacy is a myth
+
+Barun raises the everyday worry: every app asks for contacts, microphone and camera. Mitra's rule is to match the permission to the purpose. A food delivery app needs your location and will redirect to your UPI app for payment; that is fine. A calculator that demands your gallery, your contacts and administrative privileges is not; delete it and use another one. When Barun admits he has installed apps that refuse to work without every permission, Mitra's compromise is to use the app for the job and delete it afterwards. He also demystifies apps in general: an app is "just a website" wrapped in an APK; your history lives on the company's server, which is why reinstalling a food app brings your old orders back.
+
+Then Barun points at the phone lying between them. Could it be silently recording this conversation? Mitra's reply: it is recording right now. Say "Hey Google" and someone else's phone in the room wakes up, which means the microphone is always listening. He tells the Reebok story everyone recognises, talk about buying shoes and see shoe ads the next day, and notes that this is why Zuckerberg and Sundar Pichai have been questioned in American courts.
+
+> 100% সিকিউরিটি ইজ এ মিথ। প্রাইভেসি ডিপেন্ডস অন ইন্ডিভিজুয়াল, তুমি কোথায় কিভাবে কি ইউজ করছো। — Abhishek Mitra
+
+One hundred percent security is a myth, he says; privacy depends on the individual and on where, how and what you use. Nobody, not even the government, has permission to keep every phone under surveillance, but your own choices decide what is visible. If you do not want anyone to know you visited a place, turn off Google Maps location before you leave and turn it back on later. Someone with your Google or YouTube history can read your psychology and manipulate you easily; someone with your email has your whole story. His protocols: incognito mode for searches and videos, location off, and no complaints afterwards, because "তুমি দিয়েছো", you gave the permission.
+
+## National security, ISRO and the weakest link
+
+Mitra says anyone working at national security level will not be allowed to carry an Android phone into the office, and the protocols extend to their families: periodic security questions, changing access controls, defences against honey traps. He points to Israel as a small country that maintains security seriously.
+
+Barun notes that ISRO itself has faced cyber attacks. Mitra explains why: satellites feed Indian operations with high-resolution images of military movement, so they are targets. He calls these state-sponsored attacks and says they mainly come from Pakistan and China, and he recalls the India-China border standoff at Doklam as the kind of geopolitical pressure behind them. His conclusion is the line security professionals repeat:
+
+> সিকিউরিটির সবচেয়ে উইকেস্ট লিংকই হচ্ছে হিউম্যান বিংস। — Abhishek Mitra
+
+The weakest link in security is human beings. Nobody can say you are 100% secure, because you can make mistakes; you leave fingerprints all over a house without thinking about it.
+
+## The dark web: Tor, DuckDuckGo and a full-screen mistake
+
+Barun asks Mitra to explain the dark web for viewers who have only heard the name. Mitra says the deep or dark web makes up 90 to 99 percent of the internet; what we use is the surface. You cannot reach it with Google Chrome. It needs the Tor browser, called the onion browser because it routes your IP through layer after layer, so the person you deal with cannot trace you. The search engine there is DuckDuckGo. Drugs, contract killings, stolen credit card numbers: "ইউ ক্যান ডু হোয়াট এভার ইউ ওয়ান্ট টু," and payments run on Bitcoin, which is why evidence is so hard to prove.
+
+He offers one operational detail: never run Tor full-screen. Your screen size becomes an identifier for whoever is trying to track you. He mentions the rumours around the Sushant Singh case, unproven, and says there are unsolved murders that were executed through the dark web. Asked for a case from his own decade in the field, he declines: the law enforcement agencies he trains never share end-to-end details, and the protocol is that they ask him about solutions without naming the person or the date. He notes that media and law enforcement people are present on the dark web too, that the FBI runs covert operations there, and that India now requires VPN providers to share data when a court orders it on national security grounds, which removes the old VPN promise that "I do not even know who you are".
+
+## Deep fakes, ChatGPT and "Terminator has come"
+
+With elections approaching, Barun asks what a deep fake is. Mitra starts with the older technique, morphing, where a face was pasted into a photograph, often pornographic, as celebrities have long suffered. A deep fake is the next step, done by AI: given enough video of someone's facial expressions, their face, hair and body structure can be placed onto another person in motion, convincingly. His example is the Rashmika Mandanna lift video: the woman in the clip was someone else, whose Instagram video had been overlaid with the actor's face. She tweeted about it the next day. He also cites US election clips showing a former president being arrested by the FBI, and Prime Minister Narendra Modi's own comment that a video of him playing garba was not him and should at least have carried a disclaimer.
+
+His proposed fix mirrors the VPN rule: deep fake tools require an application to be downloaded, so the source is known, and those applications should be required to keep a record of what is generated. He contrasts that with ChatGPT, which refuses a question like "how can I poison my wife", and warns that the GPT-4 API and Google's Gemini let others build on these models, so centralised control matters.
+
+> লাস্ট ইয়ার 2023 তে যখন চ্যাট জিপিটি ওয়াজ বর্ন, আমার ফার্স্ট রিএকশন ছিল যে টার্মিনেটর হ্যাজ কাম। — Abhishek Mitra
+
+When ChatGPT was born in 2023, he says, his first reaction was that Terminator had come. Put that thinking capability inside a robot and machine-to-machine communication could happen without people knowing. Even the people who funded OpenAI, he adds, are scared of what it can become. Listeners interested in the business side of AI will find a complementary view in the episode with [Aarijit Hajra on AI, business and education](/episodes/aarijit-hajra-ai-business-education/).
+
+## A phone call from a political party
+
+Barun asks whether deep fakes could be used to influence elections. Mitra says it is possible and then tells a story of his own. In 2019, he received calls from political parties, more than one, and he names none. The offer: meet us, the bank manager is with us, a transaction will be executed, you only have to erase the track, and you get 10% of a very large amount. He did not take the meeting; when the man called again he did not pick up the phone. No consequences followed, he says, because no party will come face to face over such a thing.
+
+The lesson he draws is about small compromises. He imagines a scenario in which someone throws himself in front of his car and then accuses him of attempted murder; a person who gets frightened and does one wrong thing can then be pulled into bigger ones. Because he follows process and knows his rights, he says, "আমার সঙ্গে সেই জিনিসটা করতে পারবে না". If anyone claims a case against you, ask to see the FIR, get a lawyer, and go only when there is a proper court summons. Fear is what the manipulator relies on.
+
+## The Facebook video-call scam, and why you should not be afraid
+
+The scam Mitra sees most often works like this. Look at your pending friend requests: ten or twelve female profiles, all locked, each with a profile picture uploaded five days ago and nothing else. You accept, she says hi, then "I need to chat with you", then the chat moves to WhatsApp, because she will not do it on Facebook. A video call follows; your face is recorded while a pre-made video plays on her side. Then the blackmail starts.
+
+His response to callers who ring him in panic is consistent. Why respond at all? And if you did, why fear? Tell them to send it wherever they want.
+
+> ইফ ইউ একচুয়ালি কমিটেড এ ক্রাইম, দেন অনলি ইউ শুড ফিয়ার। — Abhishek Mitra
+
+Only if you have actually committed a crime should you fear. If money has already been extracted, he tells them to register a complaint at cybercrime.gov.in and file an FIR first; after that, he will try his own sources. He also describes a case from Uttar Pradesh where a bank loan recovery agent used a deep fake to demand sexual favours from a widow whose late husband had a loan, and warns that with about ten minutes of someone's audio, text-to-speech software (he mentions Adobe's) can make them say "I want to kill the prime minister". The defence against fabricated media is background verification: the original video always exists somewhere, and finding it is how the Rashmika clip was exposed.
+
+On communal deep fakes, which he says circulated around recent Hindu-Muslim clashes, his advice is to be a proactive citizen rather than a reactive one: keep your opinion to yourself, do not try to influence others, and do not run to abuse someone because a video told you to. He also credits the government with three useful moves: the geo-targeted emergency alert that rang on every phone recently, the limit on WhatsApp forwards, and the ability to shut down the internet in an area, a tool used in Kashmir for decades, though he notes it can be abused by governments too.
+
+## Marrying your business partner
+
+Barun shifts to the personal, asking how a hustler keeps a relationship alive when the business eats his time. Mitra's answer is that he always wanted a wife who was independent and could carry a common dream on her own. He met Shilpi through an NGO in Purulia when he was invited to Nistarini College, a women's college in his home town, to speak on "good touch, bad touch in the cyber world"; she was one of the front-running speakers on the physical-world version of the same topic. Anyone who can lead an unpaid NGO, he reasoned, has the capability to run things.
+
+Today she is a partner in his company and heads its HR division, from recruitment onward, so the complaint "you never give me time" does not arise, because the work pressure is shared equally. She also teaches tuition in their housing complex and runs a women's garments brand that he named Wonder Girl. He cites Sugar Cosmetics as an enterprise run by a husband and wife, and says his parents make fewer demands because they know their daughter-in-law works with their son. The couple's small luxury is taking weekday holidays: on 26 January or a Sunday everyone is out, so they go to the cinema or on a trip on a Monday. "ইউ ক্যান বি ইউর ওন বস," he says.
+
+> আজকে হয়তো আমার কাছে কোটি কোটি টাকার ব্যাংকের ব্যালেন্স নেই, বাট আই এম মেন্টালি ফিট এনাফ যে আমি যেকোনো সময় যেকোনো ডিসিশনটা নিতে পারবো। — Abhishek Mitra
+
+He may not have crores in the bank, he says, but he is mentally fit enough to take any decision at any time.
+
+Asked the show's standing question, what is love, Mitra says it is an emotion and a feeling that should be rational, not irrational, and that it changes with age: a teenager loves the girl or boy he saw, a 40-year-old understands it as who he wants to come home to. His own test is generous: if feeding a biscuit to a street dog makes you happy, you love that dog. And a person should be loved by looking at what they do for others, not only for you. (For a very different answer to the same question, see [Kheyali Paul Mukherjee on what love is](/episodes/what-is-love-kheyali-paul-mukherjee-dance/).)
+
+## Indian Treks, 110 kg to 90 kg, and a father in Purulia
+
+Mitra's second venture, Indian Treks, grew out of his love of travel and a post-Covid reunion with old friends. It runs outdoor learning programmes for corporates and summer and winter camps for school students: two teams pitch tents, light a fire, boil water, cook with limited resources, and learn survival skills. The IIMs, he notes, run similar outdoor programmes with big companies.
+
+Trekking forced a physical reckoning. He weighed 110 kg; a blood test before his first trek, to Hampta Pass, showed his parameters all over the place. He started playing cricket with the children in his society from 4:30 to 5:30 every afternoon, then joined a gym on the advice of an elderly neighbour whose son lives in America. He is now 90 kg. His argument is not that fitness guarantees a long life, since a fitness freak can drop dead tomorrow, but that only about 20% of life is in your control and you should act inside that 20%. The real fear, he says, is not death but lying in bed for years listening to people. He also points out that the endorphins people chase in a bottle come free from getting tired on a field.
+
+The family history explains the fearlessness. He was bullied at school; his mother was a school teacher and the household strict. His father was a businessman in Purulia, running a scooter dealership and other franchises, and Mitra watched the ups and downs, cushioned by a grandfather who worked for the central government. When Mitra decided on business, it was his father who said, "You have been selling those products, so you can have your own thing," and who took the initiative to register the company as a sole proprietorship in Purulia. His mother, from a business family herself, never wanted it. He is a first-generation entrepreneur with no fund to raise from, and he refuses to call that a negative.
+
+## "Degree vs career" and the aquarium
+
+Barun confesses that he is an engineer who now makes podcasts and had half hoped the cyber security talk would take him back to his college syllabus. Mitra's reply is the line the episode's description leads with, in a slightly different form:
+
+> তুমি কি পড়ছো ম্যাটার করে না, তুমি কিসে ইন্টারেস্টেড সেটা ম্যাটার করে, এবং লাইফ তোমাকে কোথায় নিয়ে যায়। — Abhishek Mitra
+
+What you study does not matter; what you are interested in matters, and where life takes you. Marks rank people on a limited subject; what school does not teach is how much challenge a person can accept and whether they can lose and try again. He invokes Virat Kohli's mental strength, Rahul Dravid's explanation of why he became "The Wall", and Shoaib Akhtar's respect for how hard Dravid was to dismiss. His advice to parents is to let children fail, even at a cricket match, because "হারজিত একটা পার্ট অফ লাইফ", winning and losing is part of life.
+
+His own recent failure is domestic. Shilpi wanted a goldfish in a bowl; it died. He bought an aquarium; the goldfish died again. So he researched: you cannot buy fish and water on the same day, the tank has to cycle so bacteria grow, and from there he went down the YouTube rabbit hole of aquascaping, the golden ratio, dry-start planting under eight hours of light and cellophane. "আমি ফেল করি না, আমি রাইজ করি," he says. He does not fail; he rises.
+
+## Who is Abhishek Mitra
+
+Abhishek Mitra is the founder of Indian Cyber Security Solutions and the Indian Institute of Cyber Security. He grew up in Purulia, the son of a school teacher and a small businessman, studied BBA and MBA, and entered cyber security through a sales job at a training franchise in 2013. He is EC-Council CEH certified and an ISO 27001 ISMS auditor, and holds a diploma in digital marketing. He started his own company in 2016; it now serves more than 120 clients worldwide, including Qatar Development Bank, HDFC Life and Indus Net Technologies, and trains law enforcement agencies. His wife Shilpi is his business partner and heads the company's HR division. He also runs Indian Treks, an outdoor learning venture, and describes himself as a first-generation entrepreneur who plays cricket with the children in his housing society.
+
+## Why this conversation matters
+
+Most Bangla content about সাইবার সিকিউরিটি is either fear or jargon. This episode is neither. Mitra gives instructions a viewer can act on tonight: lock the Aadhaar biometric, read app permissions, switch off location before a private visit, never pay a WhatsApp blackmailer, look for the original video before believing a deep fake. He also refuses easy answers: privacy is a myth, humans are the weakest link, and even the people who built ChatGPT are afraid of it.
+
+The second half is a startup story that does not start in Kolkata or with family money, which makes it a useful companion to [Avelo Roy's episode on Kolkata Ventures and startups](/episodes/avelo-roy-kolkata-ventures-startup-spirituality/), and its emphasis on staying unafraid rhymes with [Gourav Banerjee on self-defence](/episodes/self-defence-martial-arts-gourav-banerjee/). Mitra's closing wish for the podcast is that someone with suicidal thoughts after a heartbreak or a financial loss might listen, take charge of their own life, and keep fighting. For a man who spends his days on threats, that is the security advice he seems to care about most.

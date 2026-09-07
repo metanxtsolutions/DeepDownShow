@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://deepdownshow.vercel.app/sitemap.xml

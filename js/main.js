@@ -11,55 +11,55 @@
 
   /* ---------------- data ---------------- */
   const EPISODES = [
-    { id: 'upYFnCkCqxQ', ep: 25, cat: 'society',  dur: '1:41:06', date: '2026-09-05', views: 114,  guest: 'Karimul Haque · Padma Shri', feature: true,
+    { id: 'upYFnCkCqxQ', slug: 'karimul-haque-bike-ambulance-dada', ep: 25, cat: 'society',  dur: '1:41:06', date: '2026-09-05', views: 114,  guest: 'Karimul Haque · Padma Shri', feature: true,
       title: 'The real Bike Ambulance Dada: saving lives, the Padma Shri, and a biopic by Dev' },
-    { id: '1q3-XnlWuQo', ep: 24, cat: 'society',  dur: '1:05:10', date: '2026-07-04', views: 3157, guest: 'Nandini Bhattacharjee',
+    { id: '1q3-XnlWuQo', slug: 'mens-rights-nandini-bhattacharjee-marriage-law', ep: 24, cat: 'society',  dur: '1:05:10', date: '2026-07-04', views: 3157, guest: 'Nandini Bhattacharjee',
       title: 'Men’s rights, marriage cases, and the precautions to take before marriage' },
-    { id: 'ucUoXDrRDA0', ep: 23, cat: 'society',  dur: '1:23:25', date: '2026-02-13', views: 411,  guest: 'Gourav Banerjee',
+    { id: 'ucUoXDrRDA0', slug: 'self-defence-martial-arts-gourav-banerjee', ep: 23, cat: 'society',  dur: '1:23:25', date: '2026-02-13', views: 411,  guest: 'Gourav Banerjee',
       title: 'Safety, self-defence and martial arts for everyone' },
-    { id: '7yLfZnfdTMI', ep: 22, cat: 'society',  dur: '1:10:05', date: '2025-11-22', views: 9312, guest: 'Dr. Prabir Basu',
+    { id: '7yLfZnfdTMI', slug: 'mens-sexual-health-dr-prabir-basu', ep: 22, cat: 'society',  dur: '1:10:05', date: '2025-11-22', views: 9312, guest: 'Dr. Prabir Basu',
       title: 'Sex, plainly: men’s real-life issues, unhealthy practices and their solutions' },
-    { id: 'mK3A4GY-ICk', ep: 21, cat: 'business', dur: '2:11:42', date: '2025-07-26', views: 589,  guest: 'Aarijit Hajra',
+    { id: 'mK3A4GY-ICk', slug: 'aarijit-hajra-ai-business-education', ep: 21, cat: 'business', dur: '2:11:42', date: '2025-07-26', views: 589,  guest: 'Aarijit Hajra',
       title: 'Think again: AI, business, the education system and life' },
-    { id: 'u-z1QQj3Bg4', ep: 20, cat: 'arts',     dur: '1:26:14', date: '2025-01-18', views: 4089, guest: 'Satadeep Saha',
+    { id: 'u-z1QQj3Bg4', slug: 'film-distribution-satadeep-saha-bangla-cinema', ep: 20, cat: 'arts',     dur: '1:26:14', date: '2025-01-18', views: 4089, guest: 'Satadeep Saha',
       title: 'Why Khadaan, Pushpa 2 and Marco became blockbusters: inside film distribution' },
-    { id: 'XNLdEr0XCUI', ep: 19, cat: 'business', dur: '36:15',   date: '2024-12-27', views: 2948, guest: 'Debaditya Chaudhury',
+    { id: 'XNLdEr0XCUI', slug: 'chowman-debaditya-chaudhury-restaurant-business', ep: 19, cat: 'business', dur: '36:15',   date: '2024-12-27', views: 2948, guest: 'Debaditya Chaudhury',
       title: 'Building Chowman, Oudh 1590 and Chapter 2, with a rock band on the side' },
-    { id: '6LQaILniQZE', ep: 18, cat: 'business', dur: '1:16:22', date: '2024-11-09', views: 801,  guest: 'Manab Paul',
+    { id: '6LQaILniQZE', slug: 'real-estate-business-bengal-manab-paul', ep: 18, cat: 'business', dur: '1:16:22', date: '2024-11-09', views: 801,  guest: 'Manab Paul',
       title: 'The opportunity in Bengal’s real estate business' },
-    { id: 'ZdMiBhwYMnE', ep: 17, cat: 'business', dur: '1:11:08', date: '2024-06-29', views: 441,  guest: 'Pallab Ghosh',
+    { id: 'ZdMiBhwYMnE', slug: 'gappu-musical-instruments-pallab-ghosh', ep: 17, cat: 'business', dur: '1:11:08', date: '2024-06-29', views: 441,  guest: 'Pallab Ghosh',
       title: 'Gappu: Bengal’s original musical instrument manufacturer' },
-    { id: 'UafYhxJs_oI', ep: 16, cat: 'science',  dur: '1:35:13', date: '2024-04-27', views: 428,  guest: 'Abhishek Mitra',
+    { id: 'UafYhxJs_oI', slug: 'cyber-security-abhishek-mitra', ep: 16, cat: 'science',  dur: '1:35:13', date: '2024-04-27', views: 428,  guest: 'Abhishek Mitra',
       title: 'Cyber attacks, cyber security, startups, love and relationships' },
-    { id: 'So5XtutB0rg', ep: 15, cat: 'arts',     dur: '1:44:40', date: '2023-11-26', views: 381,  guest: 'The Wizard SD',
+    { id: 'So5XtutB0rg', slug: 'science-behind-magic-the-wizard-sd', ep: 15, cat: 'arts',     dur: '1:44:40', date: '2023-11-26', views: 381,  guest: 'The Wizard SD',
       title: 'The science behind magic and supernatural activities' },
-    { id: 'Y0tZDrQiK_8', ep: 14, cat: 'arts',     dur: '1:18:23', date: '2023-10-13', views: 757,  guest: 'The makers of Kalkokkho',
+    { id: 'Y0tZDrQiK_8', slug: 'kalkokkho-house-of-time-low-budget-film', ep: 14, cat: 'arts',     dur: '1:18:23', date: '2023-10-13', views: 757,  guest: 'The makers of Kalkokkho',
       title: 'Kalkokkho (House of Time): can a low-budget film win awards?' },
-    { id: '0sqCgdt6hFA', ep: 13, cat: 'culture',  dur: '1:31:51', date: '2023-09-22', views: 465,  guest: 'Dr. Janardan Ghosh',
+    { id: '0sqCgdt6hFA', slug: 'ramayan-controversies-dr-janardan-ghosh', ep: 13, cat: 'culture',  dur: '1:31:51', date: '2023-09-22', views: 465,  guest: 'Dr. Janardan Ghosh',
       title: 'The controversial areas of the Ramayan' },
-    { id: 'tjk4qyeQTHc', ep: 12, cat: 'business', dur: '51:37',   date: '2023-08-14', views: 238,  guest: 'Deep Das',
+    { id: 'tjk4qyeQTHc', slug: 'deep-das-rags-to-riches', ep: 12, cat: 'business', dur: '51:37',   date: '2023-08-14', views: 238,  guest: 'Deep Das',
       title: 'Rags to riches: five profitable ventures in six years' },
-    { id: 'RyCDGQM4KsI', ep: 11, cat: 'business', dur: '1:19:29', date: '2023-07-28', views: 605,  guest: 'A commercial photographer',
+    { id: 'RyCDGQM4KsI', slug: 'brand-building-commercial-photography', ep: 11, cat: 'business', dur: '1:19:29', date: '2023-07-28', views: 605,  guest: 'A commercial photographer',
       title: 'Brand building, commercial photography and family culture' },
-    { id: 'LbH8PHxQ6Xw', ep: 10, cat: 'culture',  dur: '1:12:37', date: '2023-06-24', views: 518,  guest: 'Akash · Ravanayan',
+    { id: 'LbH8PHxQ6Xw', slug: 'ravan-hero-or-villain-ravanayan-akash', ep: 10, cat: 'culture',  dur: '1:12:37', date: '2023-06-24', views: 518,  guest: 'Akash · Ravanayan',
       title: 'Is Ravan actually a hero? Different theories of the Ramayan' },
-    { id: 'DiO0yYtr9ks', ep: 9,  cat: 'science',  dur: '42:15',   date: '2023-06-09', views: 328,  guest: 'A 3D-printing engineer',
+    { id: 'DiO0yYtr9ks', slug: '3d-printing-organ-printing', ep: 9,  cat: 'science',  dur: '42:15',   date: '2023-06-09', views: 328,  guest: 'A 3D-printing engineer',
       title: 'Is organ printing really possible? 3D printing technology, explained' },
-    { id: 'JBx0MaRqktU', ep: 8,  cat: 'business', dur: '56:36',   date: '2023-06-03', views: 341,  guest: 'Shyamacharan Nursery',
+    { id: 'JBx0MaRqktU', slug: 'corporate-experience-business-shyamacharan-nursery', ep: 8,  cat: 'business', dur: '56:36',   date: '2023-06-03', views: 341,  guest: 'Shyamacharan Nursery',
       title: 'Does corporate experience help you run a business? A century-old nursery answers' },
-    { id: '48lg-J2KBkU', ep: 7,  cat: 'business', dur: '54:09',   date: '2023-05-26', views: 1118, guest: 'Subhashis Dutt',
+    { id: '48lg-J2KBkU', slug: 'why-bengalis-dont-do-business-umbrella-subhashis-dutt', ep: 7,  cat: 'business', dur: '54:09',   date: '2023-05-26', views: 1118, guest: 'Subhashis Dutt',
       title: 'Why Bengalis don’t do business: India’s first umbrella manufacturer' },
-    { id: 'tYZWrmmfzcU', ep: 6,  cat: 'business', dur: '1:06:14', date: '2023-04-30', views: 604,  guest: 'The founder of Adda Khana', parts: 2,
+    { id: 'tYZWrmmfzcU', slug: 'adda-khana-durgapur-tea-shop-business', ep: 6,  cat: 'business', dur: '1:06:14', date: '2023-04-30', views: 604,  guest: 'The founder of Adda Khana', parts: 2,
       title: 'How a backbencher built Durgapur’s best tea shop, and whether you should open one' },
-    { id: '4PoAPRZfBqE', ep: 5,  cat: 'business', dur: '50:58',   date: '2023-04-18', views: 817,  guest: 'Avelo Roy · Kolkata Ventures',
+    { id: '4PoAPRZfBqE', slug: 'avelo-roy-kolkata-ventures-startup-spirituality', ep: 5,  cat: 'business', dur: '50:58',   date: '2023-04-18', views: 817,  guest: 'Avelo Roy · Kolkata Ventures',
       title: 'Startups, spirituality and a lot more' },
-    { id: 'zFJdoy5IPWY', ep: 4,  cat: 'business', dur: '1:01:47', date: '2023-04-07', views: 332,  guest: 'Ayon Das · Izifiso', parts: 2,
+    { id: 'zFJdoy5IPWY', slug: 'izifiso-ayon-das-mousuni-island-backpackers-camp', ep: 4,  cat: 'business', dur: '1:01:47', date: '2023-04-07', views: 332,  guest: 'Ayon Das · Izifiso', parts: 2,
       title: 'Building a backpackers’ camp on Mousuni Island, and whether startups need funding' },
-    { id: 'E4som7uyDZ0', ep: 3,  cat: 'arts',     dur: '41:46',   date: '2023-02-21', views: 451,  guest: 'Rupsha Saha',
+    { id: 'E4som7uyDZ0', slug: 'how-to-become-a-poet-rupsha-saha', ep: 3,  cat: 'arts',     dur: '41:46',   date: '2023-02-21', views: 451,  guest: 'Rupsha Saha',
       title: 'How to become a poet, and the three best Bangla books' },
-    { id: 'mzqnaha8kLc', ep: 2,  cat: 'culture',  dur: '56:28',   date: '2021-12-11', views: 548,  guest: 'Dr. Janardan Ghosh', parts: 2,
+    { id: 'mzqnaha8kLc', slug: 'find-your-passion-spiritual-vs-religious-janardan-ghosh', ep: 2,  cat: 'culture',  dur: '56:28',   date: '2021-12-11', views: 548,  guest: 'Dr. Janardan Ghosh', parts: 2,
       title: 'How to find your passion, and whether to be spiritual or religious' },
-    { id: 'Kx0rjhoGefM', ep: 1,  cat: 'arts',     dur: '54:48',   date: '2021-04-30', views: 978,  guest: 'Kheyali Paul Mukherjee · Nritricks',
+    { id: 'Kx0rjhoGefM', slug: 'what-is-love-kheyali-paul-mukherjee-dance', ep: 1,  cat: 'arts',     dur: '54:48',   date: '2021-04-30', views: 978,  guest: 'Kheyali Paul Mukherjee · Nritricks',
       title: 'What is love? A dancer answers, in the first ever episode' },
   ];
 
@@ -114,19 +114,21 @@
   function epCard(c, i) {
     const feature = c.feature ? ' clip--feature' : '';
     const parts = c.parts ? ` · ${c.parts} parts` : '';
+    const href = `episodes/${c.slug}/`;
     return `
-      <button class="clip${feature}" type="button" data-id="${c.id}" data-title="${esc(c.title)}" data-kicker="Episode ${c.ep} · ${esc(c.guest)}" style="animation-delay:${Math.min(i, 8) * 55}ms">
-        <div class="clip__thumb">
+      <article class="clip${feature}" style="animation-delay:${Math.min(i, 8) * 55}ms">
+        <button class="clip__thumb" type="button" data-id="${c.id}" data-title="${esc(c.title)}" data-kicker="Episode ${c.ep} · ${esc(c.guest)}" aria-label="Play episode ${c.ep}">
           <img src="${thumb(c.id)}" alt="" loading="lazy"${onloadFix(c.id, thumbFallback(c.id))}>
           <span class="clip__dur">${c.dur}</span>
           <span class="clip__play" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18"><path d="M8 5.5v13l11-6.5-11-6.5Z" fill="currentColor"/></svg></span>
-        </div>
+        </button>
         <div class="clip__body">
           <div class="clip__tags"><span class="ep">DDS ${c.ep}</span><span>${CAT_LABEL[c.cat]}</span></div>
-          <h3 class="clip__title">${esc(c.title)}</h3>
+          <h3 class="clip__title"><a href="${href}">${esc(c.title)}</a></h3>
           <div class="clip__meta"><span>Ft. ${esc(c.guest)}${parts}</span><time datetime="${c.date}">${fmtDate(c.date)} · ${fmtViews(c.views)} views</time></div>
+          <a class="clip__read" href="${href}">Read the full article <span class="arrow" aria-hidden="true">→</span></a>
         </div>
-      </button>`;
+      </article>`;
   }
 
   function renderEpisodes(filter = 'all') {
@@ -242,7 +244,7 @@
     lastFocus?.focus?.();
   }
   document.addEventListener('click', e => {
-    const card = e.target.closest('.clip, .short');
+    const card = e.target.closest('.clip__thumb, .short');
     if (card) openVideo(card.dataset.id, card.dataset.title, card.dataset.kicker, !!card.dataset.vertical);
     if (e.target.closest('[data-close]')) closeModal();
   });

@@ -22,6 +22,9 @@ js = (ROOT / 'js' / 'main.js').read_text(encoding='utf-8')
 body = html.split('<!--BODY-START-->')[1].split('<!--BODY-END-->')[0]
 body = re.sub(r'src="(assets/[^"]+)"', lambda m: f'src="{data_uri(ROOT / m.group(1))}"', body)
 
+SITE_URL = json.loads((ROOT / 'site.json').read_text(encoding='utf-8'))['url'].rstrip('/')
+body = body.replace('href="episodes/', f'target="_blank" rel="noopener" href="{SITE_URL}/episodes/')
+js = js.replace('const href = `episodes/${c.slug}/`;', f'const href = `{SITE_URL}/episodes/${{c.slug}}/`;')
 thumbs = {p.stem: data_uri(p) for p in sorted(THUMBS.glob('*.jpg'))} if THUMBS.exists() else {}
 body = re.sub(r'src="thumbs/([^"]+)\.jpg"', lambda m: f'src="{thumbs.get(m.group(1), m.group(0)[5:-1])}"', body)
 fonts = re.search(r'<link rel="stylesheet" href="https://fonts\.googleapis\.com[^>]+>', html).group(0)
