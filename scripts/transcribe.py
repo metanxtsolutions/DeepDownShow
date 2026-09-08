@@ -42,7 +42,7 @@ def download(vid):
 def run_whisper(wav):
     prefix = wav.with_suffix('')
     cmd = [WHISPER, '-m', MODEL, '-l', 'bn', '-t', '8', '-np', '-mc', '0', '-nf', '-bo', '1', '-bs', '1', '-et', '2.4',
-           '--vad', '--vad-model', VAD, '-osrt', '-of', str(prefix), '-f', str(wav)]
+           '--vad', '--vad-model', VAD, '--vad-max-speech-duration-s', '25', '--vad-speech-pad-ms', '200', '-osrt', '-of', str(prefix), '-f', str(wav)]
     subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, check=True)
     # whisper.cpp tokens are byte-level, so a multibyte character can straddle a segment: decode leniently.
     srt = prefix.with_suffix('.srt').read_bytes().decode('utf-8', 'replace').replace('\ufffd', '')
