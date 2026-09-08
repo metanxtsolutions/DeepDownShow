@@ -69,9 +69,7 @@
     }
   ],
   "related": [
-    "adda-khana-durgapur-tea-shop-business",
-    "why-bengalis-dont-do-business-umbrella-subhashis-dutt",
-    "deep-das-rags-to-riches",
+    "adda-khana-durgapur-tea-shop-business",    "deep-das-rags-to-riches",
     "gappu-musical-instruments-pallab-ghosh",
     "avelo-roy-kolkata-ventures-startup-spirituality"
   ],
@@ -163,6 +161,6 @@ Debaditya Chaudhury is the founder of Chowman, the Chinese restaurant chain he s
 
 ## Why this conversation matters
 
-The Deep Down Show has asked more than once why Bengalis hesitate to do business; Subhashis Dutt's [umbrella episode](/episodes/why-bengalis-dont-do-business-umbrella-subhashis-dutt/) tackles the question head on. Debaditya is the counter-example: a boy from a salaried Ballygunge family, told that Bengalis do not sell biryani, who built one of Kolkata's biggest restaurant groups without abandoning the band he formed in class eleven. Like Pallab Ghosh in the [Gappu instruments episode](/episodes/gappu-musical-instruments-pallab-ghosh/), he turned a passion into an industry rather than choosing between them.
+The Deep Down Show has asked more than once why Bengalis hesitate to do business; Subhashis Dutt's [umbrella episode](https://www.youtube.com/watch?v=48lg-J2KBkU) tackles the question head on. Debaditya is the counter-example: a boy from a salaried Ballygunge family, told that Bengalis do not sell biryani, who built one of Kolkata's biggest restaurant groups without abandoning the band he formed in class eleven. Like Pallab Ghosh in the [Gappu instruments episode](/episodes/gappu-musical-instruments-pallab-ghosh/), he turned a passion into an industry rather than choosing between them.
 
 The practical lessons are specific: keep the food the hero, keep the price honest, and treat staff retention as the first lever of customer retention. The Lakkhichhara half of his life was promised for a second episode. Shorter cuts from this one are on the [DDS Clips channel](https://www.youtube.com/@DDSClipsBangla).

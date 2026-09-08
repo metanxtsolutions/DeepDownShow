@@ -62,9 +62,7 @@
       "a": "He explains that his name is derived from Thomas Alva Edison's middle name, Alva. He uses Edison's many failed attempts before inventing the lightbulb as a personal metaphor for how he approaches failure in his own ventures."
     }
   ],
-  "related": [
-    "why-bengalis-dont-do-business-umbrella-subhashis-dutt",
-    "deep-das-rags-to-riches",
+  "related": [    "deep-das-rags-to-riches",
     "find-your-passion-spiritual-vs-religious-janardan-ghosh"
   ],
   "clips": []
@@ -115,6 +113,6 @@ Avelo Roy is a serial entrepreneur, Founder & MD of Kolkata Ventures, and a core
 
 ## Why this conversation matters
 
-Most startup conversations on Bengali podcasts stay inside the business frame: funding, scaling, hiring. This one is unusual for how openly Roy ties his professional rebuild to a personal loss he didn't choose, and for treating the Bhagavad Gita as a working tool rather than a footnote. It sits well alongside the Bengal Business Council's broader case for Bengali entrepreneurship made in the [Subhashis Dutt episode](/episodes/why-bengalis-dont-do-business-umbrella-subhashis-dutt/), and alongside [Deep Das's account](/episodes/deep-das-rags-to-riches/) of building multiple businesses from nothing, though Roy's version leans harder into what happens when the plan itself falls apart. For a more direct take on the spiritual side of the conversation, [Janardan Ghosh's episode](/episodes/find-your-passion-spiritual-vs-religious-janardan-ghosh/) covers similar ground on the difference between spirituality and organised religion.
+Most startup conversations on Bengali podcasts stay inside the business frame: funding, scaling, hiring. This one is unusual for how openly Roy ties his professional rebuild to a personal loss he didn't choose, and for treating the Bhagavad Gita as a working tool rather than a footnote. It sits well alongside the Bengal Business Council's broader case for Bengali entrepreneurship made in the [Subhashis Dutt episode](https://www.youtube.com/watch?v=48lg-J2KBkU), and alongside [Deep Das's account](/episodes/deep-das-rags-to-riches/) of building multiple businesses from nothing, though Roy's version leans harder into what happens when the plan itself falls apart. For a more direct take on the spiritual side of the conversation, [Janardan Ghosh's episode](/episodes/find-your-passion-spiritual-vs-religious-janardan-ghosh/) covers similar ground on the difference between spirituality and organised religion.
 
 Roy's own framing, borrowed from Edison by way of his own first name, is the simplest summary of the episode: failure isn't the opposite of the eventual result, it's usually just what comes before it.

@@ -68,9 +68,7 @@
       "a": "He says that once people started calling him the Robot Man of India, it pushed him to keep creating and improving. He argues that creating content matters less for money and more for proving one's existence and ideas to the world."
     }
   ],
-  "related": [
-    "why-bengalis-dont-do-business-umbrella-subhashis-dutt",
-    "cyber-security-abhishek-mitra",
+  "related": [    "cyber-security-abhishek-mitra",
     "3d-printing-organ-printing"
   ],
   "clips": [
@@ -102,7 +100,7 @@ Asked whether AI or robots will eventually take over from humans, Hajra doesn't 
 
 ## Bengal, Business and Choosing Roots Over Profit
 
-On the recurring DDS question of why Bengalis struggle in business, Hajra agrees that Bengalis are often strong on culture and ideas but weak at marketing. He makes it personal: rather than moving his company's registration to a hub like Mumbai or Bangalore — which he says is where most tech patents end up being credited, since patents are filed wherever a company's headquarters sits — he deliberately kept Think Again Lab registered in Bengal. He's candid that this choice likely costs him money, but says he values the relationships and community he's built by staying rooted more than the profit he might have made elsewhere. Barun's earlier conversation with Subhashis Dutt on [why Bengalis don't do business](/episodes/why-bengalis-dont-do-business-umbrella-subhashis-dutt/) covers similar ground from a different guest's perspective.
+On the recurring DDS question of why Bengalis struggle in business, Hajra agrees that Bengalis are often strong on culture and ideas but weak at marketing. He makes it personal: rather than moving his company's registration to a hub like Mumbai or Bangalore — which he says is where most tech patents end up being credited, since patents are filed wherever a company's headquarters sits — he deliberately kept Think Again Lab registered in Bengal. He's candid that this choice likely costs him money, but says he values the relationships and community he's built by staying rooted more than the profit he might have made elsewhere. Barun's earlier conversation with Subhashis Dutt on [why Bengalis don't do business](https://www.youtube.com/watch?v=48lg-J2KBkU) covers similar ground from a different guest's perspective.
 
 ## Balancing Open Source and Paid Software
 

@@ -70,9 +70,7 @@
   ],
   "related": [
     "aarijit-hajra-ai-business-education",
-    "deep-das-rags-to-riches",
-    "why-bengalis-dont-do-business-umbrella-subhashis-dutt"
-  ],
+    "deep-das-rags-to-riches"  ],
   "clips": []
 }
 ---
@@ -137,4 +135,4 @@ Manjima Mukherjee is the founder of Flashback Globale, a commercial photography 
 
 For anyone in Bengal thinking about starting a creative business, Mukherjee's episode is less about photography technique and more about the harder, less visible work: reading what a client actually needs, deciding what a brand is worth beyond its raw materials, and holding a partnership together without either person taking over. Her insistence that AI is a tool to train people on, not a threat to hide from, and her family's early skepticism about her career choice, both speak to a wider question this show keeps returning to — what it actually takes for a Bengali entrepreneur to build something that isn't limited by where it started.
 
-For more on how Bengali founders are rethinking AI and business, see [Arijit Hajra on AI, Business and India's Education](/episodes/aarijit-hajra-ai-business-education/) and [Deep Das's rags-to-riches story](/episodes/deep-das-rags-to-riches/). For the cultural backdrop to why entrepreneurship is still an uphill choice for many Bengali families, see [Why Bengalis Don't Do Business](/episodes/why-bengalis-dont-do-business-umbrella-subhashis-dutt/).
+For more on how Bengali founders are rethinking AI and business, see [Arijit Hajra on AI, Business and India's Education](/episodes/aarijit-hajra-ai-business-education/) and [Deep Das's rags-to-riches story](/episodes/deep-das-rags-to-riches/). For the cultural backdrop to why entrepreneurship is still an uphill choice for many Bengali families, see [Why Bengalis Don't Do Business](https://www.youtube.com/watch?v=48lg-J2KBkU).

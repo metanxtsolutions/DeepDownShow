@@ -70,9 +70,7 @@
     }
   ],
   "related": [
-    "corporate-experience-business-shyamacharan-nursery",
-    "why-bengalis-dont-do-business-umbrella-subhashis-dutt",
-    "avelo-roy-kolkata-ventures-startup-spirituality",
+    "corporate-experience-business-shyamacharan-nursery",    "avelo-roy-kolkata-ventures-startup-spirituality",
     "chowman-debaditya-chaudhury-restaurant-business",
     "gappu-musical-instruments-pallab-ghosh"
   ],
@@ -136,6 +134,6 @@ Deep Das is a serial entrepreneur based in the Kolkata area who, starting in 201
 
 ## Why this conversation matters
 
-Deep Das's episode isn't a single origin story so much as a working model for how one entrepreneur manages breadth without spreading too thin, visiting every site himself, pricing around what customers can actually afford, and refusing to copy a business model just because it worked somewhere else. That instinct to build around a real personal need, a gym habit, an inherited lodge, an eye for detail on a car, rather than a market trend, connects his story to Reeti Jana's account of rebuilding a family nursery in the [corporate-experience episode](/episodes/corporate-experience-business-shyamacharan-nursery/), and his skepticism about franchising without real partnership echoes the questions Subhashis Dutt raises about Bengali business culture in the ["why Bengalis don't do business" episode](/episodes/why-bengalis-dont-do-business-umbrella-subhashis-dutt/).
+Deep Das's episode isn't a single origin story so much as a working model for how one entrepreneur manages breadth without spreading too thin, visiting every site himself, pricing around what customers can actually afford, and refusing to copy a business model just because it worked somewhere else. That instinct to build around a real personal need, a gym habit, an inherited lodge, an eye for detail on a car, rather than a market trend, connects his story to Reeti Jana's account of rebuilding a family nursery in the [corporate-experience episode](/episodes/corporate-experience-business-shyamacharan-nursery/), and his skepticism about franchising without real partnership echoes the questions Subhashis Dutt raises about Bengali business culture in the ["why Bengalis don't do business" episode](https://www.youtube.com/watch?v=48lg-J2KBkU).
 
 For anyone weighing whether to start one business or several, Das's answer isn't really about the number five. It's about being willing to step into the water on the first one before worrying about the rest.

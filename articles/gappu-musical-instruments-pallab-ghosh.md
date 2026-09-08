@@ -32,7 +32,7 @@
     {"q": "What did Pallab Ghosh say about love and relationships?", "a": "Pallab has been in a relationship for five to six years and gives his partner the credit for teaching him to keep calm and mind his words. He defines love as mutual respect and support for what each person wants in life, and insists that a relationship without disagreements is not a relationship at all but a bubble. Adjustment is necessary for the long term, he says, as long as it does not start to look fishy."},
     {"q": "What does Pallab think about Bangla content versus English or Hindi content?", "a": "As a businessman he says he will promote his product wherever conversion is highest, quoting the idea that English content is made for money and brand deals while Hindi content is made for reach. As a viewer he wants Bangla content to flourish, but notes that Bengalis tend to watch Hindi and English first and that no Bangla channel does business case studies the way Think School does."}
   ],
-  "related": ["why-bengalis-dont-do-business-umbrella-subhashis-dutt", "corporate-experience-business-shyamacharan-nursery", "deep-das-rags-to-riches", "brand-building-commercial-photography", "aarijit-hajra-ai-business-education"],
+  "related": [ "corporate-experience-business-shyamacharan-nursery", "deep-das-rags-to-riches", "brand-building-commercial-photography", "aarijit-hajra-ai-business-education"],
   "clips": []
 }
 ---
@@ -79,7 +79,7 @@ The rest is a marketing game. In their parents' generation, nobody knew anything
 
 Barun raises a pattern: a Bengali engineer can imagine building a business around engineering, as Barun can with software, yet every Bengali home encourages music and almost nobody thinks of turning that art into a business the way Gappu has.
 
-Pallab's first explanation is contentment: a musician who does four shows has his needs met. The second is that business culture is missing at home. The previous generation said study well, become a doctor or engineer, get a software job abroad. That is changing, he says, with Shark Tank so popular and Kolkata startup founders such as "Ranadeep da" and "Shamik da" becoming inspirations. Barun, who is from Durgapur, recalls from an interview that Ranadeep started out renting space at Durgapur's Junction Mall and, before that, with stalls in bookshops. The show has put the same question to Subhashis Dutt; compare his answer in [Why Bengalis don't do business](/episodes/why-bengalis-dont-do-business-umbrella-subhashis-dutt/).
+Pallab's first explanation is contentment: a musician who does four shows has his needs met. The second is that business culture is missing at home. The previous generation said study well, become a doctor or engineer, get a software job abroad. That is changing, he says, with Shark Tank so popular and Kolkata startup founders such as "Ranadeep da" and "Shamik da" becoming inspirations. Barun, who is from Durgapur, recalls from an interview that Ranadeep started out renting space at Durgapur's Junction Mall and, before that, with stalls in bookshops. The show has put the same question to Subhashis Dutt; compare his answer in [Why Bengalis don't do business](https://www.youtube.com/watch?v=48lg-J2KBkU).
 
 ## GST, a spoiled batch and near-bankruptcy
 

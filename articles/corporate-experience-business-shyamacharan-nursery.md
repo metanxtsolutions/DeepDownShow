@@ -69,9 +69,7 @@
     }
   ],
   "related": [
-    "avelo-roy-kolkata-ventures-startup-spirituality",
-    "why-bengalis-dont-do-business-umbrella-subhashis-dutt",
-    "deep-das-rags-to-riches",
+    "avelo-roy-kolkata-ventures-startup-spirituality",    "deep-das-rags-to-riches",
     "real-estate-business-bengal-manab-paul"
   ],
   "clips": []

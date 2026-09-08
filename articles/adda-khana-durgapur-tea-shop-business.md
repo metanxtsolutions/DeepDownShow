@@ -70,9 +70,7 @@
     }
   ],
   "related": [
-    "chowman-debaditya-chaudhury-restaurant-business",
-    "why-bengalis-dont-do-business-umbrella-subhashis-dutt",
-    "deep-das-rags-to-riches",
+    "chowman-debaditya-chaudhury-restaurant-business",    "deep-das-rags-to-riches",
     "corporate-experience-business-shyamacharan-nursery"
   ],
   "clips": [],
@@ -147,6 +145,6 @@ Suman Kar is a diploma-qualified engineer from Durgapur and the founder of Adda 
 
 ## Why this conversation matters
 
-Adda Khana's story is less about tea than about the mechanics most business conversations skip: what it actually takes to get a loan when you have no collateral, what it costs in neighbourhood goodwill to expand a small shop, and what it means to keep growing without outside money propping you up. Suman Kar's account sits well alongside Debaditya Chaudhury's very different but structurally similar climb from a 300-square-foot restaurant in the [Chowman episode](/episodes/chowman-debaditya-chaudhury-restaurant-business/), and it speaks directly to the question the show's own [Bengalis-and-business episode](/episodes/why-bengalis-dont-do-business-umbrella-subhashis-dutt/) asks head-on.
+Adda Khana's story is less about tea than about the mechanics most business conversations skip: what it actually takes to get a loan when you have no collateral, what it costs in neighbourhood goodwill to expand a small shop, and what it means to keep growing without outside money propping you up. Suman Kar's account sits well alongside Debaditya Chaudhury's very different but structurally similar climb from a 300-square-foot restaurant in the [Chowman episode](/episodes/chowman-debaditya-chaudhury-restaurant-business/), and it speaks directly to the question the show's own [Bengalis-and-business episode](https://www.youtube.com/watch?v=48lg-J2KBkU) asks head-on.
 
 What makes this conversation worth the full two parts is Suman Kar's refusal to sell his own success as a template. He built something real out of a highway stall and a family with no spare collateral — and then spent the second half of the conversation telling viewers, plainly, not to assume the same thing will work for them just because it worked for him.

@@ -69,9 +69,7 @@
   ],
   "related": [
     "deep-das-rags-to-riches",
-    "corporate-experience-business-shyamacharan-nursery",
-    "why-bengalis-dont-do-business-umbrella-subhashis-dutt",
-    "izifiso-ayon-das-mousuni-island-backpackers-camp"
+    "corporate-experience-business-shyamacharan-nursery",    "izifiso-ayon-das-mousuni-island-backpackers-camp"
   ],
   "clips": []
 }
@@ -113,4 +111,4 @@ Manab Paul is the founder of the Sree Balaji Group and the creator of the Pantha
 
 ## Why this conversation matters
 
-As the closing episode of the Deep Down Show's first season, this conversation works as a counter to the idea — explored elsewhere on the show, including in the [why-do-Bengalis-not-do-business episode](/episodes/why-bengalis-dont-do-business-umbrella-subhashis-dutt/) — that language, formal education or capital are what decide who gets to build a business. Paul's path from a Bengali-medium classroom and an unfinished college degree to running a real estate brand across two regions of Bengal sits alongside other founder stories on the show, like [Deep Das's](/episodes/deep-das-rags-to-riches/), that make the same point from different starting lines: the constraint people cite as the reason they can't start is rarely the real one.
+As the closing episode of the Deep Down Show's first season, this conversation works as a counter to the idea — explored elsewhere on the show, including in the [why-do-Bengalis-not-do-business episode](https://www.youtube.com/watch?v=48lg-J2KBkU) — that language, formal education or capital are what decide who gets to build a business. Paul's path from a Bengali-medium classroom and an unfinished college degree to running a real estate brand across two regions of Bengal sits alongside other founder stories on the show, like [Deep Das's](/episodes/deep-das-rags-to-riches/), that make the same point from different starting lines: the constraint people cite as the reason they can't start is rarely the real one.
